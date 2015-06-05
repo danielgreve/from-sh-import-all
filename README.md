@@ -1,6 +1,6 @@
 # Use Python As A Pseudo-Shell With `sh`
 
-## How to run
+## How To Run
 
 First confirm the `sh` module is installed, or install with `pip`.
 
@@ -25,7 +25,7 @@ Hello
 >>> 
 ```
 
-## Why You Would Want To Do This?
+## Why Would You Want To Do This?
 
 Honestly, you likely would not. Python syntax is terse, but not terse enough for a great shell experience. Plus, `sh` does not implement interactive applications [yet](https://github.com/amoffat/sh/issues/92), so vim and the like would not be available unless you defined functions for them like so:
 
