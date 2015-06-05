@@ -1,6 +1,6 @@
 # Use Python As A Pseudo-Shell With `sh`
 
-## How To Run
+## How to run
 
 First confirm the `sh` module is installed, or install with `pip`.
 
@@ -25,7 +25,7 @@ Hello
 >>> 
 ```
 
-## Why Would You Want To Do This?
+## Why would you want to do this?
 
 Honestly, you likely would not. Python syntax is terse, but not terse enough for a great shell experience. Plus, `sh` does not implement interactive applications [yet](https://github.com/amoffat/sh/issues/92), so vim and the like would not be available unless you defined functions for them like so:
 
@@ -37,7 +37,7 @@ def vim(filename)
 
 Altogether, IPython provides a better interactive experience for system shell usage along with Python. However, `sh` is a godsend for scripting with shell commands.
 
-## Further Reading
+## Further reading
 
 * `sh` [documentation](https://amoffat.github.io/sh/)
 * [IPython as a system shell](http://ipython.org/ipython-doc/stable/interactive/shell.html)
