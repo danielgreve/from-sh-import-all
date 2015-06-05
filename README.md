@@ -1,4 +1,4 @@
-# Use Python As A Pseudo-Shell With `sh`
+# Use Python as a pseudo-shell with `sh`
 
 ## How to run
 
